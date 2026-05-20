@@ -37616,73 +37616,61 @@ class rM {
 const oM = [
     {
       id: 0,
-      name: "the iqic",
-      description: "Delivered a professional freelance project for a quality inspection company, creating a comprehensive business website",
-      image: "images/projects/theiqic.jpeg",
-      tags: ["javascript", "html", "css", "freelance"],
-      liveview: "https://theiqic.com/",
-      // github: "https://github.com/satvik9373/coffee-website-.git",
-      alt: "Coffee Shop Website",
+      name: "Trustate AI Doc Engine",
+      description: "AI document generation engine utilizing Claude 3.5 Sonnet to draft complex estate docs in seconds.",
+      image: "images/projects/trustate_doc_engine.png",
+      tags: ["nextjs", "langchain", "llm", "python"],
+      liveview: "https://www.trustate.com/",
+      alt: "Trustate AI Doc Engine",
     },
     {
       id: 1,
-      name: "venchers campaign",
-      description: "a block-based photo sharing system inspired by the historic Million Dollar Homepage concept",
-      image: "images/projects/krushigram.png",
-      tags: ["react", "express", "multer", "googleAuth","Cloudinery"],
-      liveview: "https://venchers-campaign.vercel.app/",
-      alt: "venchers campaign",
+      name: "pgvector Legal Search",
+      description: "Semantic search engine over 30+ years of estate planning templates with HNSW indexing under 2 seconds.",
+      image: "images/projects/legal_rag_search.png",
+      tags: ["fastapi", "pgvector", "python", "llm"],
+      liveview: "https://www.trustate.com/",
+      alt: "pgvector Legal Search",
     },
     {
       id: 2,
-      name: "vapor ui",
-      description: "UI component library featuring 20+ reusable components, text animations, background animations, loading page elements, and interactive UI element ",
-      image: "images/projects/vaporui.jpeg",
-      tags: ["javascript", "react", "ui","framer"],
-      liveview: "https://vapor-ui.vercel.app/",
-      // github: "https://github.com/satvik9373/yoga-class.git",
-      alt: "Fitness Institute",
+      name: "Trust Funding Automation",
+      description: "Autonomous multi-agent system executing deeds preparation and asset retitling tasks built on LangGraph.",
+      image: "images/projects/trust_funding_agent.png",
+      tags: ["langchain", "agents", "python", "aws"],
+      liveview: "https://www.trustate.com/",
+      alt: "Trust Funding Automation",
     },
     {
       id: 3,
-      name: "Quick Labs",
-      description: "Quick labs is an LMS developed for teaching assistants at my university to provide lab solutions, manage materials, and support students.",
-      image: "images/projects/studybuddy.jpeg",
-      tags: ["javascript", "react", "mongodb", ""],
-      liveview: "http://quicklabs.fun/",
-      // github: "https://github.com/satvik9373/Think-Beyond-Marketing",
-      alt: "Digital Marketing Agency",
+      name: "Mento AI Coach Matcher",
+      description: "Coaching recommendation engine matching enterprise employees to executive coaches using sentence embeddings.",
+      image: "images/projects/mento_coach_match.png",
+      tags: ["nextjs", "fastapi", "pgvector", "python"],
+      liveview: "https://www.mento.co/",
+      alt: "Mento AI Coach Matcher",
     },
     {
       id: 4,
-      name: "Open Talk",
-      description: "Open Talk is a platform where people can share their achievements and hacks, allowing others to like or dislike them without needing an account.",
-      image: "images/projects/opentalk.jpeg",
-      tags: ["react", "mongodb", "express"],
-      liveview: "https://opentalk1.netlify.app/",
-      // github: "https://github.com/satvik9373/lms-websitee",
-      alt: "Affiliate Marketing and earning Website",
+      name: "AI Session Summarizer",
+      description: "Structured session commitments and insight extraction service leveraging GPT-4 and Pydantic validation.",
+      image: "images/projects/coaching_summaries.png",
+      tags: ["fastapi", "llm", "typescript", "react"],
+      liveview: "https://www.mento.co/",
+      alt: "AI Session Summarizer",
     },
   ],
   aM = {
-    html: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">HTML</div>',
-    css: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">CSS</div>',
-    javascript:
-      '<div class="work-item-tag" style="background: #FFB800;">JavaScript</div>',
-    react:
-      '<div class="work-item-tag" style="background: #21BAEB;">React js</div>',
-    mongodb:'<div class="work-item-tag" style="background: #4fe461;">MongoDB</div>',
-    googleAuth:'<div class="work-item-tag" style="background: #4fe461;">Google Auth</div>',
-    express:
-      '<div class="work-item-tag" style="background: #333;">Express</div>',
-    multer:
-      '<div class="work-item-tag" style="background:rgb(187, 93, 93);">Multer</div>',
-      Cloudinery: '<div class="work-item-tag" style="background:rgb(73, 143, 248);">Cloudinery</div>',
-      freelance: '<div class="work-item-tag" style="background:rgb(73, 143, 248);">Freelancs</div>',
-    ui: '<div class="work-item-tag" style="background: #CA49F8;">UI Design</div>',
-    tailwind: '<div class="work-item-tag" style="background:rgb(234, 248, 73);">Tailwind</div>',
-    game: '<div class="work-item-tag" style="background: #e86ef0;">Game</div>',
-    framer: '<div class="work-item-tag" style="background: #e86ef0;">Framer</div>',
+    nextjs: '<div class="work-item-tag" style="background: #000; border: 1px solid #333;">Next.js</div>',
+    fastapi: '<div class="work-item-tag" style="background: #059669;">FastAPI</div>',
+    langchain: '<div class="work-item-tag" style="background: #1C3C5A;">LangChain</div>',
+    pgvector: '<div class="work-item-tag" style="background: #336791;">pgvector</div>',
+    aws: '<div class="work-item-tag" style="background: #FF9900; color: #000;">AWS</div>',
+    react: '<div class="work-item-tag" style="background: #21BAEB;">React</div>',
+    typescript: '<div class="work-item-tag" style="background: #3178C6;">TypeScript</div>',
+    python: '<div class="work-item-tag" style="background: #3776AB;">Python</div>',
+    agents: '<div class="work-item-tag" style="background: #CA49F8;">AI Agents</div>',
+    llm: '<div class="work-item-tag" style="background: #FFB800;">LLM</div>',
   };
 class lM {
   constructor() {
@@ -37871,24 +37859,24 @@ class lM {
 }
 const cM = [
   {
-    name: "web development",
+    name: "Frontend / Next.js",
+    width: "95%",
+  },
+  {
+    name: "Backend / FastAPI",
+    width: "95%",
+  },
+  {
+    name: "AI & LLMs (LangChain)",
     width: "90%",
   },
   {
-    name: "app devlopment",
-    width: "55%",
-  },
-  {
-    name: "graphic design",
+    name: "Vector Search & RAG",
     width: "90%",
   },
   {
-    name: "frontend",
-    width: "80%",
-  },
-  {
-    name: "backend",
-    width: "75%",
+    name: "Databases & Cloud",
+    width: "85%",
   },
 ];
 class hM {
@@ -38953,13 +38941,17 @@ class gM {
           this.experience.ui.about.animations.playHologramAnimation(0.1),
       },
       {
-        name: "work",
+        name: "experience",
         elements: [document.querySelectorAll(".menu-item")[2]],
+      },
+      {
+        name: "work",
+        elements: [document.querySelectorAll(".menu-item")[3]],
       },
       {
         name: "contact",
         elements: [
-          document.querySelectorAll(".menu-item")[3],
+          document.querySelectorAll(".menu-item")[4],
           document.getElementById("landing-cta-button"),
         ],
       },
@@ -39140,6 +39132,7 @@ class _M {
   constructor() {
     he(this, "domElements", {
       aboutContainer: document.getElementById("about-section"),
+      experienceContainer: document.getElementById("experience-section"),
       workContainer: document.getElementById("work-section"),
     });
     he(this, "sections", [
@@ -39148,6 +39141,12 @@ class _M {
         y: 0,
         container: document.getElementById("about-section"),
         offset: () => 0,
+      },
+      {
+        name: "experience",
+        y: 0,
+        container: document.getElementById("experience-section"),
+        offset: () => 20,
       },
       {
         name: "work",
